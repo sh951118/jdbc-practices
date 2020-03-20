@@ -22,7 +22,7 @@ public class InsertTest {
 
 		try {
 			// 1. JBDC Driver(MyDriver) 로딩
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("org.mariadb.jdbc.Driver");
 
 			// 2. 연결하기
 			String url = "jdbc:mysql://127.0.0.1:3306/webdb";
